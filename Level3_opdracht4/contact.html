@@ -20,12 +20,14 @@
         </header>
         <main>
             <form name="contact" method="POST" data-netlify="true">
-                <div>
-                    <span>Geslacht:</span>
+                <span>Geslacht:</span>
+                <div class="geslacht">
+                    <input type="radio" name="gender" id="male" value="male" />
                     <label for="male">Man</label>
-                    <input type="radio" name="gender" id="male" value="male">
+                </div>
+                <div class="geslacht">
+                    <input type="radio" name="gender" id="female" value="female" />
                     <label for="female">Vrouw</label>
-                    <input type="radio" name="gender" id="female" value="female">
                 </div>
                 <div>
                     <label for="name">Naam</label>

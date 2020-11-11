@@ -81,6 +81,9 @@ form input[type="radio"], form input[type="checkbox"] {
     display: inline;
     width: auto;
 }
+form .geslacht {
+    display: inline-block;
+}
 form button {
     display: inline-block;
     width: 49%;
