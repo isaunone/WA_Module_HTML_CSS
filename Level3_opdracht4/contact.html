@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Een groter formulier</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Contact formulier</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">Over mij</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form name="contact" method="POST" data-netlify="true">
+                <div>
+                    <span>Geslacht:</span>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Man</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Vrouw</label>
+                </div>
+                <div>
+                    <label for="name">Naam</label>
+                    <input name="name" type="text">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input name="email" type="email">
+                </div>
+                <div>
+                    <label for="telephone">Telefoonnummer</label>
+                    <input name="telephone" type="tel">
+                </div>
+                <div>
+                    <label for="age">Leeftijd</label>
+                    <input name="age" type="number">
+                </div>
+                <div>
+                    <label for="bday">Geboortedatum</label>
+                    <input name="bday" type="date">
+                </div>
+                <div class="">
+                    <p>Favorite cuisine:</p>
+                    <input type="checkbox" name="french" id="cuisine_french">
+                    <label for="french">Franse</label>
+                    <input type="checkbox" name="italian" id="cuisine_italian">
+                    <label for="italian">Italiaan</label>
+                    <input type="checkbox" name="spanish" id="cuisine_spanish">
+                    <label for="spanish">Spaans</label>
+                    <input type="checkbox" name="arabic" id="cuisine_arabic">
+                    <label for="arabic">Arabic</label>
+                </div>
+                <div>
+                    <label for="shortcolor">Favoriete kleur van short</label>
+                    <input name="shortcolor" type="color">
+                </div>
+                <div>
+                    <label for="bio">Biografie</label>
+                    <textarea name="bio" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <label for="url-recipe">URL recepten website</label>
+                    <input name="url-recipe" type="url">
+                </div>
+                <div>
+                    <label for="file-recipe">Upload recept</label>
+                    <input name="file-recipe" type="file">
+                </div>
+                <button type="reset">Reset</button>
+                <button type="submit">Versturen</button>
+            </form>
+        </main>
+
+    </div>
+</body>
+</html>
